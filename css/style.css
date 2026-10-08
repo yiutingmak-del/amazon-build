@@ -292,3 +292,73 @@ a {
     display: none;
 }
 
+/* PRODUCT ROW: the white strip that holds the five tiles. overflow: hidden is
+   the second way of clearing the floats on this page. */
+.product-row {
+    width: 1160px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+/* ROW TITLE: the heading above the product tiles. */
+.row-title {
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+/* PRODUCT TILE: floated left, each tile holds one product picture. */
+.product-tile {
+    float: left;
+    width: 224px;
+    height: 200px;
+    margin-right: 14px;
+}
+
+/* PRODUCT IMAGE: fills each tile. */
+.product-image {
+    width: 224px;
+    height: 200px;
+}
+
+/* SIGN IN STRIP: the white band with the prompt, the button and the small note. */
+.signin-strip {
+    width: 1200px;
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/* SIGN IN TEXT: the first line of the strip. */
+.signin-text {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* SIGN IN BUTTON: inline-block so it sits on its own line as a block, but is
+   centred by the text-align of the strip. */
+.signin-button {
+    display: inline-block;
+    width: 220px;
+    height: 32px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #ffd814;
+    border: 1px solid #fcd200;
+}
+
+/* SIGN IN BUTTON HOVER: brightens the button when the mouse is over it. */
+.signin-button:hover {
+    background-color: #f7ca00;
+}
+
+/* SIGN IN SMALL: the closing note with the new customer link. */
+.signin-small {
+    font-size: 12px;
+}
+
+
