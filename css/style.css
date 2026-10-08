@@ -218,3 +218,26 @@ a {
 }
 
 
+/* ==========================================================================
+   BLOCK 2 - MAIN CONTENT
+   ========================================================================== */
+
+/* MAIN WRAPPER: the fixed width page column, centred with margin: 0 auto. */
+.main-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* BANNER: the wide image strip under the header. */
+.hero-banner {
+    width: 1200px;
+    height: 300px;
+}
+
+/* BANNER IMAGE: fills the banner strip. */
+.hero-banner img {
+    width: 1200px;
+    height: 300px;
+}
+
