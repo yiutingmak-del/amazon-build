@@ -1,0 +1,43 @@
+/* ==========================================================================
+   Amazon Homepage Layout
+   Student ID 25530933 - YIU TING MAK
+   Techniques used: normal flow, float, clear, box model, margin: 0 auto
+   No flexbox, no grid, no position and no framework is used in this file.
+   ========================================================================== */
+
+
+/* GLOBAL RESET ------------------------------------------------------------
+   This removes the default margin and padding from every element so that
+   all spacing on the page comes from the rules written below. */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY: the base font, text colour and page background. */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #0f1111;
+    background-color: #e3e6e6;
+}
+
+/* LISTS: removes the bullet points from the nav list and the footer lists. */
+ul {
+    list-style: none;
+}
+
+/* LINKS: removes the underline from all links and keeps the dark text colour
+   the same as the rest of the page. */
+a {
+    text-decoration: none;
+    color: #0f1111;
+}
+
+/* CLEAR HELPER: a small class put on an empty tag that sits after a group of
+   floated blocks. clear: both pushes that tag below the floated blocks. */
+.clear {
+    clear: both;
+}
+
+
