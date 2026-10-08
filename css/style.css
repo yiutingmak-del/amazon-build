@@ -362,3 +362,82 @@ a {
 }
 
 
+/* ==========================================================================
+   BLOCK 3 - FOOTER
+   ========================================================================== */
+
+/* FOOTER WRAPPER: the dark background shared by all three footer rows. */
+.footer {
+    background-color: #232f3e;
+}
+
+/* BACK TO TOP: the lighter strip at the top of the footer with centred text. */
+.back-to-top {
+    padding: 15px 0;
+    text-align: center;
+    color: #ffffff;
+    background-color: #37475a;
+}
+
+/* BACK TO TOP HOVER: lightens the strip when the mouse is over it. */
+.back-to-top:hover {
+    background-color: #485769;
+}
+
+/* FOOTER LINKS: the centred fixed width parent of the four floated columns. */
+.footer-links {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+/* FOOTER COLUMN: floated left. Four columns of 250 add up to the 1000px parent. */
+.footer-column {
+    float: left;
+    width: 250px;
+}
+
+/* FOOTER HEADING: the bold white heading of each column. */
+.footer-heading {
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* FOOTER LIST ITEM: the space between the links inside a column. */
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+/* FOOTER LINK: the small grey link text inside the dark footer. */
+.footer-column a {
+    font-size: 13px;
+    color: #dddddd;
+}
+
+/* FOOTER LINK HOVER: underlines the link when the mouse is over it. */
+.footer-column a:hover {
+    text-decoration: underline;
+}
+
+/* COPYRIGHT: the bottom dark strip with the small logo and the legal line. */
+.copyright {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #131921;
+}
+
+/* COPYRIGHT LOGO: the small logo above the legal line. */
+.copyright-logo {
+    width: 80px;
+    height: 30px;
+}
+
+/* COPYRIGHT TEXT: the legal line at the very bottom of the page. */
+.copyright-text {
+    font-size: 12px;
+    color: #dddddd;
+    margin-top: 8px;
+}
+
+
