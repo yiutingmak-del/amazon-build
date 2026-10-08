@@ -41,3 +41,180 @@ a {
 }
 
 
+/* ==========================================================================
+   BLOCK 1 - HEADER
+   ========================================================================== */
+
+/* HEADER WRAPPER: the dark background shared by the top nav and the sub nav. */
+.header {
+    background-color: #131921;
+}
+
+/* TOP NAV: the dark row at the very top. It is a fixed width column centred
+   with margin: 0 auto, and overflow: hidden stops the floated children
+   from spilling out of the row. */
+.top-nav {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+/* LOGO: floated left so the delivery block sits next to it on the same row.
+   The border is the same colour as the row, so it only shows on hover. */
+.site-logo {
+    float: left;
+    width: 116px;
+    height: 40px;
+    padding: 4px;
+    margin-right: 8px;
+    border: 1px solid #131921;
+}
+
+/* LOGO IMAGE: fills the logo block. */
+.site-logo img {
+    width: 116px;
+    height: 40px;
+}
+
+/* LOGO HOVER: shows the white outline when the mouse is over the block. */
+.site-logo:hover {
+    border: 1px solid #ffffff;
+}
+
+/* DELIVERY BLOCK: floated left, two lines of small text. */
+.deliver-block {
+    float: left;
+    width: 130px;
+    padding: 6px;
+    margin-right: 8px;
+    border: 1px solid #131921;
+    color: #ffffff;
+}
+
+/* FIRST LINE OF THE DELIVERY BLOCK: the small grey caption. */
+.deliver-small {
+    font-size: 12px;
+    color: #cccccc;
+}
+
+/* SECOND LINE OF THE DELIVERY BLOCK: the bold place name. */
+.deliver-big {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* DELIVERY BLOCK HOVER: same white outline as the logo. */
+.deliver-block:hover {
+    border: 1px solid #ffffff;
+}
+
+/* SEARCH BAR: floated left. Fixed width and height, a gold border, and the
+   three blocks inside it are floated left so they read as one control. */
+.search-bar {
+    float: left;
+    width: 600px;
+    height: 34px;
+    margin-right: 8px;
+    border: 3px solid #febd69;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+/* SEARCH SCOPE: floated left, the small grey block on the left of the bar. */
+.search-scope {
+    float: left;
+    width: 50px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    background-color: #f3f3f3;
+    border-right: 1px solid #cdcdcd;
+}
+
+/* SEARCH TEXT BOX: floated left, takes the room left in the middle of the bar. */
+.search-input {
+    float: left;
+    width: 468px;
+    height: 34px;
+    padding: 0 8px;
+    border: none;
+    font-size: 15px;
+}
+
+/* SEARCH BUTTON: floated left, the gold block on the right of the bar. */
+.search-button {
+    float: left;
+    width: 65px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #febd69;
+}
+
+/* SEARCH BUTTON HOVER: darkens the gold block when the mouse is over it. */
+.search-button:hover {
+    background-color: #f3a847;
+}
+
+/* ACCOUNT LINKS GROUP: floated right so the group sticks to the right of the row. */
+.account-links {
+    float: right;
+    padding-top: 6px;
+    color: #ffffff;
+}
+
+/* ACCOUNT ITEM: floated left inside the right hand group. */
+.account-item {
+    float: left;
+    padding: 12px 8px;
+    font-size: 12px;
+    border: 1px solid #131921;
+}
+
+/* ACCOUNT ITEM HOVER: white outline on each small account block. */
+.account-item:hover {
+    border: 1px solid #ffffff;
+}
+
+/* CART ITEM: floated left beside the account links, same height as them. */
+.cart-item {
+    float: left;
+    padding: 12px 8px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #131921;
+}
+
+/* CART ITEM HOVER: white outline on the cart block. */
+.cart-item:hover {
+    border: 1px solid #ffffff;
+}
+
+/* SUB NAV: the second dark row, a fixed width column centred with margin: 0 auto. */
+.sub-nav {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 6px 0;
+    background-color: #232f3e;
+}
+
+/* SUB NAV LIST ITEM: display inline-block puts the category links on one row
+   without floats, so this row does not need to be cleared. */
+.sub-nav-list li {
+    display: inline-block;
+    padding: 4px 10px;
+    font-size: 13px;
+    color: #ffffff;
+    border: 1px solid #232f3e;
+}
+
+/* SUB NAV LINK HOVER: white outline on the category link under the mouse. */
+.sub-nav-list li:hover {
+    border: 1px solid #ffffff;
+}
+
+
